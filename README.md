@@ -27,7 +27,7 @@ Specifically, the investor requested the analysis of the temperature data for th
 
 ## Results
 
-**Deliverable 1. Using Python, Pandas functions and methods, and SQLAlchemy, retrieved all the temperatures for the month of _June_ for the years 2010 - 2017 and generated the summary statistics**
+### Deliverable 1. Using Python, Pandas functions and methods, and SQLAlchemy, retrieved all the temperatures for the month of **June** for the years 2010 - 2017 and generated the summary statistics
 
 ***June Temperature DataFrame***
 
@@ -37,7 +37,7 @@ Specifically, the investor requested the analysis of the temperature data for th
 
 ![June Stat](/Resources/Jun_Temp_Stat.png)
 
-**Deliverable 2. Using Python, Pandas functions and methods, and SQLAlchemy, retrieved all the temperatures for the month of _December_ for the years 2010 - 2017 and generated the summary statistics**
+### Deliverable 2. Using Python, Pandas functions and methods, and SQLAlchemy, retrieved all the temperatures for the month of **December** for the years 2010 - 2017 and generated the summary statistics
 
 ***December Temperature DataFrame***
 
@@ -47,7 +47,16 @@ Specifically, the investor requested the analysis of the temperature data for th
 
 ![Dec Stat](/Resources/Dec_Temp_Stat.png)
 
-**3. Extracted and Transform the Kaggle Data**
+### Deliverable 3. Summary Report
 
+#### Overview of the statistical analysis
 
+The purpose of the analysis is well defined.
+Results:
+
+#### Results 
+    Key differences in weather between June and December:
+
+#### Summary of the results
+    and there are two additional queries to perform to gather more weather data for June and December.
 
