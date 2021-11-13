@@ -2,9 +2,11 @@
 
 ## Overview of the analysis
 
-The project delivers data analysis of weather at the Oahu island in Hawaii that is used by a private investor to make a decision about investing into the Surf n' Shake Shop serving surf boards and ice cream.
+The project delivered data analysis of weather conditions at the Oahu island in Hawaii that is used by a private investor to make a decision about investing into the Surf n' Shake Shop serving surf boards and ice cream.
 
-Specifically, the investor requested the analysis of the temperature data for the months of June and December in order to determine if the surf and ice cream shop business is sustainable year-round.
+An initial precipitation analysis had been conducted and confirmed the attractiveness of the Surf n' Shake Shop business proposal.  
+
+The investor requested additional analysis of the temperature data for the months of June and December in order to determine if the surf and ice cream shop business is sustainable year-round.
 
 ### Deliverables: 
 
@@ -77,16 +79,43 @@ Key differences in weather between June and December:
     - The **Skewness** of the June Temperature sample distribution is nearly **symmetric** (negligent skewness to the left) with only 0.1 Degree difference between the Median and the Mean
     - The **Skewness** of the December Temperature sample distribution is nearly **symmetric** (negligent skewness to the right) with only 0.04 Degree difference between the Median and the Mean
 
-- *Histograms*:
-
-    - June Data
-
-    ![June Data](/Resources/Jun_Hist.png)
-
-    - December Data
-
-    ![Dec Data](/Resources/Dec_Hist.png)
-
 #### Summary of the results
-    and there are two additional queries to perform to gather more weather data for June and December.
+
+- *Overall Conclusion*
+
+    - The analysis confirmed that both, June and December, temperature conditions are favorable for the operation of the Surf n' Shake Shop.
+
+    - June weather is more consistent (less variability) and warmer than December weather.
+    
+- *It is recommended to perform additional queries to gather more weather data for June and December, as follows*
+
+    1. June Data Histograms
+
+        ![June Data](/Resources/Jun_Hist.png)
+
+    2. December Data Histograms
+
+        ![Dec Data](/Resources/Dec_Hist.png)
+
+    3. Correlation between precipitation and temperature by month
+
+    4. Query how June and December temperature and precipitation have been trending over the years (since 2010), e.g. year on year weather regression analysis 
+
+    5. If there is access to an extended data set, additional queries can be considered:
+
+        - Query additional weather-related adverse conditions such as storms, volcano eruptions, eathquakes, floods, shark attacks, etc
+
+        - Query time-of-day temperature changes: variability of temperatures from day to night
+
+        - Water temperature dynamics by month
+
+        - Cloud cover dynamics by month and day
+
+        - Wind strenght dynamics by month and day
+
+        - Humidity dynamics by month and day
+
+        - Wave height dynamics by month and day
+
+    6. Query alternative data sources to confirm the initial data set accuracy and completeness
 
